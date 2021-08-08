@@ -1,0 +1,22 @@
+{
+  "name": "dimpsey-website",
+  "version": "1.0.0",
+  "description": "the dimpsey gin marketing website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stillshed/dimpsey-website.git"
+  },
+  "author": "Tommy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stillshed/dimpsey-website/issues"
+  },
+  "homepage": "https://github.com/stillshed/dimpsey-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
