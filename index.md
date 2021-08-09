@@ -8,7 +8,7 @@
     <title>Dimpsey Somerset Gin</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
     <link href="dimpsey.css" rel="stylesheet">
@@ -149,7 +149,7 @@
       </footer>
     </main>
 
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
     <script type="application/javascript">
       function changeImage(size) {
