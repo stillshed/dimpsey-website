@@ -6,32 +6,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-}
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
-}
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  min-width: 100%;
-  height: 32rem;
+  background-color: rgb(255 254 242);
 }
 
 
@@ -46,11 +21,57 @@ body {
 .marketing h2 {
   font-weight: 400;
 }
+/* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+/* rtl:end:ignore */
 
+.marketing a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+img.thumbnail {
+  height: 150px;
+}
+
+img.five-cl {
+  height: 100px;
+}
+
+img.main {
+  display: block;
+  margin: auto;
+  height: 600px;
+}
+
+.thumbnails {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.thumbnail:last-child {
+  margin-top: 20px;
+}
+
+.description, .contact-image {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
 
 /* Featurettes
 ------------------------- */
@@ -63,6 +84,8 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
 }
 
 
@@ -83,7 +106,5 @@ body {
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+
 }
