@@ -13,179 +13,158 @@
     <!-- Custom styles for this template -->
     <link href="dimpsey.css" rel="stylesheet">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0" tabindex="0">
     
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dimpsey Somerset Gin</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">The Gin</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Get in Touch</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Where it's Made</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
-<main>
-
-  <div id="animated-illustration">
-      <img src="https://i.pinimg.com/originals/22/f9/dd/22f9dddfe0c89ecc330b3c7c4522b970.jpg" />
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="container quote">
-    <blockquote class="blockquote text-center">
-      <p>Distilled in copper pot stills just before Dimpsey (that’s old Somerset for sunset) at the foot of the Mendip Hills,
-        using locally foraged botanicals, and Cheddar spring water, this is Somerset Gin.</p>
-    </blockquote>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="container marketing">
-
-    <div class="row">
-      <div class="col-lg-1 thumbnails">
-        <a href="#">
-          <img class="thumbnail" src="./images/bottle.png" />
-          <p>70cl</p>
-        </a>
-        <a href="#">
-          <img class="thumbnail five-cl" src="./images/bottle.png" />
-          <p>5cl</p>
-        </a>
-      </div><!-- /.col-lg-2 thumbnails -->
-
-      <div class="col-lg-6 main-image">
-        <img class="main" src="./images/bottle.png" />
-      </div><!-- /.col-lg-6 main-image -->
-
-      <div class="col-lg-5 description">
-        <div class="row">
-          <div class="col-lg-4">
-            <p>Nose</p>
-            <p>Fragrant juniper, grapefruit & cinnamon</p>
-          </div>
-          <div class="col-lg-4">
-            <p>Pallete</p>
-            <p>Smooth & Full-bodied, balanced with grapefruit and mandarin peel freshness</p>
-          </div>
-          <div class="col-lg-4">
-            <p>Finish</p>
-            <p>A long extra dry finish, smooth enough to enjoy on the rocks!</p>
+    <header>
+      <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dimpsey Somerset Gin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#theGin">The Gin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#whereItsMade">Where it's Made</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
+    </header>
 
-        <p>Our gin comes packaged with a lovely little bag of dried petals that can be used to compliment the organic,
-          hand-foraged botanicals that we use. </p>
+    <main>
 
-        <p>Best enjoyed as a gin and tonic. Fill a glass with lots of ice, top with a premium tonic and a curl of grapefruit or mandarin peel to granish.</p>
-
-        <form>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1"><strong>£35</strong> 70cl</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2"><strong>£6</strong> 5cl</label>
-          </div>
-        </form>
-        <p>Free UK shipping on orders over £50</p>
-        <button type="submit" class="btn btn-primary mb-2">ADD TO BASKET</button>
-      </div><!-- /.col-lg-4 description -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Hello there, how are you? <span class="text-muted">Get in touch!</span></h2>
-
-        <form>
-          <div class="mb-3">
-            <label for="inputName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="inputName">
-          </div>
-          <div class="mb-3">
-            <label for="inputEmail" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div>
-          <div class="mb-3">
-            <label for="formControlTextarea" class="form-label">Enter your message</label>
-            <textarea class="form-control" id="formControlTextarea" rows="3"></textarea>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Subscribe to the Dimpsey feed, a lovingly hand-crafted newsletter sent at Dimpsey,
-              every once in a while!</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Contact</button>
-        </form>
-
+      <div class="animated-illustration">
+          <img alt="Dimpsey Somerset Gin illustration" src="./images/main.png" />
       </div>
-      <div class="col-md-5 contact-image">
-      <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
-        <img src="./images/contact-image.png" />
 
-      </div>
-    </div>
+      <hr class="featurette-divider">
 
-    <hr class="featurette-divider">
+        <div id="theGin" class="container quote">
+          <blockquote class="blockquote text-center">
+            <p>Distilled in copper pot stills just before Dimpsey - that’s old Somerset for sunset - at the foot of the Mendip Hills, <br />
+              using locally foraged botanicals and Cheddar spring water, <br /> this is Somerset Gin.</p>
+          </blockquote>
+        </div>
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
+        <hr class="featurette-divider">
 
-        <h2 class="featurette-heading">Check out our distillery. <span class="text-muted">It's where the magic happens.</span></h2>
-        <p class="lead">Dimpsey Somerset Gin is lovingly hand-crafted in our converted barn, the Still Shed Distillery.</p>
+        <div class="container marketing">
 
-        <p>Our distillery's location is as rural as the taste of our Somerset gin, nested amongst brambles and fields, Dimpsey Somerset Gin is distilled in
-        our copper pot stills, using only the finest, locally foraged botanicals - most of which we grow ourselves!</p>
+          <div class="row">
+            <div class="col-lg-1 thumbnails">
 
-        <p>If you'd like to know more about us or our distillery, check out the Still Shed website!</p>
+              <label>
+                <input type="radio" name="test" value="small" onchange="changeImage('seventy')" checked>
+                <img class="thumbnail" alt="70cl bottle of Dimpsey Somerset Gin" src="./images/bottle.png" />
+                70cl
+              </label>
 
-      </div>
-      <div class="col-md-5 order-md-1">
+              <label>
+                <input type="radio" name="test" value="big" onchange="changeImage('five')">
+                <img class="thumbnail five-cl" alt="5cl bottle of Dimpsey Somerset Gin" src="./images/five.png" />
+                5cl
+              </label>
+            </div><!-- /.col-lg-2 thumbnails -->
 
-        <img src="./images/stillshed.png" />
+            <div class="col-lg-6 main-image">
+              <img class="seventy-cl-image" alt="70cl bottle of Dimpsey Somerset Gin" src="./images/bottle.png" />
+              <img class="five-cl-image d-none" alt="5cl bottle of Dimpsey Somerset Gin" src="./images/five.png" />
+            </div><!-- /.col-lg-6 main-image -->
 
-      </div>
-    </div>
+            <div class="col-lg-5 description">
+              <div class="row">
+                <div class="col-lg-4">
+                  <p><strong>Nose</strong></p>
+                  <p>Fragrant juniper, grapefruit & cinnamon</p>
+                </div>
+                <div class="col-lg-4">
+                  <p><strong>Palette</strong></p>
+                  <p>Smooth & Full-bodied, balanced with grapefruit and mandarin peel freshness</p>
+                </div>
+                <div class="col-lg-4">
+                  <p><strong>Finish</strong></p>
+                  <p>A long extra dry finish, smooth enough to enjoy on the rocks!</p>
+                </div>
+              </div>
 
-    <hr class="featurette-divider">
+              <p>Our gin comes packaged with a lovely little bag of dried petals that can be used to compliment the organic,
+                hand-foraged botanicals that we use. </p>
 
-    <!-- /END THE FEATURETTES -->
+              <p>Best enjoyed as a gin and tonic. Fill a glass with lots of ice, top with a premium tonic and a curl of pink grapefruit
+                or mandarin peel to garnish.</p>
 
-  </div><!-- /.container -->
+              <form>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="seventyClRadio" value="seventyCl" onchange="changeImage('seventy')" checked>
+                  <label class="form-check-label" for="seventyClRadio"><strong>£35</strong> <small>70cl</small></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="fiveClRadio" value="fiveCl" onchange="changeImage('five')">
+                  <label class="form-check-label" for="fiveClRadio"><strong>£6</strong> <small>5cl</small></label>
+                </div>
+              </form>
+              <p>Free UK shipping on orders over £50</p>
+              <button type="submit" class="btn btn-primary mb-2">ADD TO BASKET</button>
+              <button type="submit" class="btn btn-secondary mb-2">BUY NOW</button>
+            </div><!-- /.col-lg-4 description -->
+          </div><!-- /.row -->
+        </div><!-- /.marketing -->
+
+        <div id="whereItsMade" class="container distillery">
+          <hr class="featurette-divider">
+          <div class="row">
+
+            <div class="col-lg-7 distillery-description">
+
+              <h2 class="featurette-heading">Check out our distillery. <span class="text-muted">It's where the magic happens.</span></h2>
+              <p class="lead">Dimpsey Somerset Gin is lovingly hand-crafted in our converted barn, the Still Shed Distillery.</p>
+
+              <p>Our distillery's location is as rural as the taste of our Somerset gin, nested amongst brambles and fields, Dimpsey Somerset Gin is distilled in
+                our copper pot stills, using only the finest, locally foraged botanicals - most of which we grow ourselves!</p>
+
+              <p>If you'd like to know more about us or our distillery, check out the Still Shed website!</p>
+
+            </div><!-- /.col-lg-6 distillery-description -->
+
+            <div class="col-lg-5 distillery-image">
+              <img alt="The Still Shed Distillery logo" src="./images/stillshed.png" />
+            </div>
+
+          </div>
+
+          <hr class="featurette-divider">
+
+        </div><!-- /.distillery -->
 
 
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2021 Still Shed Distillery Limited &middot; <a href="#">Still Shed</a> &middot; <a href="#">Privacy</a></p>
-  </footer>
-</main>
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2021 Still Shed Distillery Limited &middot; <a href="#">Still Shed</a> &middot; <a href="#">Privacy</a></p>
+      </footer>
+    </main>
 
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
-    <script src="../node_modules/bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="application/javascript">
+      function changeImage(size) {
+        let element = document.getElementsByClassName(size + "-cl-image")
+        element[0].classList.toggle("d-none");
+
+        if (size === "five") {
+          document.getElementsByClassName("seventy-cl-image")[0].classList.toggle("d-none");
+        } else {
+          document.getElementsByClassName("five-cl-image")[0].classList.toggle("d-none");
+        }
+
+        document.getElementById(size + "ClRadio").checked = true;
+      }
+    </script>
 
 
   </body>

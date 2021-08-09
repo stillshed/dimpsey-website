@@ -13,6 +13,29 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
+.animated-illustration img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* HIDE RADIO */
+.thumbnails [type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+/*[type=radio]:checked + img {*/
+/*  outline: 2px solid #f00;*/
+/*}*/
+
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
@@ -38,13 +61,22 @@ img.thumbnail {
   height: 150px;
 }
 
-img.five-cl {
-  height: 100px;
+.main-image {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.main-image img {
+  display: block;
+  margin: auto;
 }
 
 img.main {
-  display: block;
-  margin: auto;
   height: 600px;
 }
 
