@@ -134,4 +134,9 @@ img.main {
     flex-direction: column-reverse;
     margin-top: 40px;
   }
+
+  .volume-selection-buy-buttons {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
