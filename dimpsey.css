@@ -105,6 +105,12 @@ img.main {
   justify-content: flex-end;
 }
 
+/* Center align Shopify buy button */
+
+.shopify-buy-frame {
+  margin: 0 auto;
+}
+
 /* Featurettes
 ------------------------- */
 
