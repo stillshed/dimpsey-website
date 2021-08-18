@@ -107,8 +107,8 @@ img.main {
 
 /* Center align Shopify buy button */
 
-.shopify-buy-frame {
-  margin: 0 auto;
+.shopify-buy-buttons {
+  min-height: 175px;
 }
 
 /* Featurettes

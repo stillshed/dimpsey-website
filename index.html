@@ -6,6 +6,30 @@
     <meta name="description" content="Dimpsey Somerset Gin">
     <meta name="author" content="Tommy">
     <title>Dimpsey Somerset Gin</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Dimpsey Somerset Gin",
+        "image": [
+          "https://dimpseygin.co.uk/images/bottle.png"
+        ],
+        "description": "Distilled in copper pot stills just before Dimpsey - that’s old Somerset for sunset - at the foot of the Mendip Hills, using locally foraged botanicals and Cheddar spring water, this is Somerset Gin.",
+        "sku": "001",
+        "brand": {
+          "@type": "Brand",
+          "name": "Dimpsey Gin"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://dimpseygin.co.uk",
+          "priceCurrency": "GBP",
+          "price": "35.00",
+          "itemCondition": "https://schema.org/NewCondition",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -100,590 +124,586 @@
                 or mandarin peel to garnish.</p>
 
               <div class="description volume-selection-buy-buttons">
-                <form>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="seven-hundredMlRadio" value="seventyCl" onchange="changeImage('seven-hundred')" checked>
-                    <label class="form-check-label" for="seven-hundredMlRadio"><strong>£35</strong> <small>700ml</small></label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="fiftyMlRadio" value="fiveCl" onchange="changeImage('fifty')">
-                    <label class="form-check-label" for="fiftyMlRadio"><strong>£5</strong> <small>50ml</small></label>
-                  </div>
-                </form>
+
+                <div class="shopify-buy-buttons">
+
+                  <div class="seven-hundred-buy-button">
+                    <!--
+                    Shopify button for 700ml Dimpsey
+                    -->
+
+                    <div id='product-component-1629237356069'></div>
+                    <script type="text/javascript">
+                      /*<![CDATA[*/
+                      (function () {
+                        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                        if (window.ShopifyBuy) {
+                          if (window.ShopifyBuy.UI) {
+                            ShopifyBuyInit();
+                          } else {
+                            loadScript();
+                          }
+                        } else {
+                          loadScript();
+                        }
+                        function loadScript() {
+                          var script = document.createElement('script');
+                          script.async = true;
+                          script.src = scriptURL;
+                          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                          script.onload = ShopifyBuyInit;
+                        }
+                        function ShopifyBuyInit() {
+                          var client = ShopifyBuy.buildClient({
+                            domain: 'dimpsey-somerset-gin.myshopify.com',
+                            storefrontAccessToken: '31d7e98eefae99434c75c2f5d8554c11',
+                          });
+                          ShopifyBuy.UI.onReady(client).then(function (ui) {
+                            ui.createComponent('product', {
+                              id: '7009929461922',
+                              variantId: '40636439658658',
+                              node: document.getElementById('product-component-1629237356069'),
+                              moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+                              options: {
+                                "product": {
+                                  "styles": {
+                                    "product": {
+                                      "@media (min-width: 601px)": {
+                                        "max-width": "calc(25% - 20px)",
+                                        "margin-left": "20px",
+                                        "margin-bottom": "50px"
+                                      }
+                                    },
+                                    "button": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000",
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "background-color": "#f5ae20",
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "border-radius": "0px",
+                                      "padding-left": "41px",
+                                      "padding-right": "41px"
+                                    },
+                                    "quantityInput": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px"
+                                    }
+                                  },
+                                  "contents": {
+                                    "img": false,
+                                    "button": false,
+                                    "buttonWithQuantity": true,
+                                    "title": false,
+                                    "price": false,
+                                    "options": false
+                                  },
+                                  "text": {
+                                    "button": "Pre-order (due 06/08)"
+                                  }
+                                },
+                                "productSet": {
+                                  "styles": {
+                                    "products": {
+                                      "@media (min-width: 601px)": {
+                                        "margin-left": "-20px"
+                                      }
+                                    }
+                                  }
+                                },
+                                "modalProduct": {
+                                  "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": true,
+                                    "button": false,
+                                    "buttonWithQuantity": true
+                                  },
+                                  "styles": {
+                                    "product": {
+                                      "@media (min-width: 601px)": {
+                                        "max-width": "100%",
+                                        "margin-left": "0px",
+                                        "margin-bottom": "0px"
+                                      }
+                                    },
+                                    "button": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000",
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "background-color": "#f5ae20",
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "border-radius": "0px",
+                                      "padding-left": "41px",
+                                      "padding-right": "41px"
+                                    },
+                                    "quantityInput": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px"
+                                    }
+                                  },
+                                  "text": {
+                                    "button": "Add to cart"
+                                  }
+                                },
+                                "option": {},
+                                "cart": {
+                                  "styles": {
+                                    "button": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000",
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "background-color": "#f5ae20",
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "border-radius": "0px"
+                                    },
+                                    "title": {
+                                      "color": "#000000"
+                                    },
+                                    "header": {
+                                      "color": "#000000"
+                                    },
+                                    "lineItems": {
+                                      "color": "#000000"
+                                    },
+                                    "subtotalText": {
+                                      "color": "#000000"
+                                    },
+                                    "subtotal": {
+                                      "color": "#000000"
+                                    },
+                                    "notice": {
+                                      "color": "#000000"
+                                    },
+                                    "currency": {
+                                      "color": "#000000"
+                                    },
+                                    "close": {
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000"
+                                      }
+                                    },
+                                    "empty": {
+                                      "color": "#000000"
+                                    },
+                                    "noteDescription": {
+                                      "color": "#000000"
+                                    },
+                                    "discountText": {
+                                      "color": "#000000"
+                                    },
+                                    "discountIcon": {
+                                      "fill": "#000000"
+                                    },
+                                    "discountAmount": {
+                                      "color": "#000000"
+                                    },
+                                    "cart": {
+                                      "background-color": "#fffef2"
+                                    },
+                                    "footer": {
+                                      "background-color": "#fffef2"
+                                    }
+                                  },
+                                  "text": {
+                                    "title": "Basket",
+                                    "total": "Subtotal",
+                                    "empty": "Your basket is empty.",
+                                    "button": "Checkout"
+                                  },
+                                  "contents": {
+                                    "note": true
+                                  },
+                                  "popup": false
+                                },
+                                "toggle": {
+                                  "styles": {
+                                    "toggle": {
+                                      "background-color": "#f5ae20",
+                                      ":hover": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      }
+                                    },
+                                    "count": {
+                                      "font-size": "14px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000"
+                                      }
+                                    },
+                                    "iconPath": {
+                                      "fill": "#000000"
+                                    }
+                                  }
+                                },
+                                "lineItem": {
+                                  "styles": {
+                                    "variantTitle": {
+                                      "color": "#000000"
+                                    },
+                                    "title": {
+                                      "color": "#000000"
+                                    },
+                                    "price": {
+                                      "color": "#000000"
+                                    },
+                                    "fullPrice": {
+                                      "color": "#000000"
+                                    },
+                                    "discount": {
+                                      "color": "#000000"
+                                    },
+                                    "discountIcon": {
+                                      "fill": "#000000"
+                                    },
+                                    "quantity": {
+                                      "color": "#000000"
+                                    },
+                                    "quantityIncrement": {
+                                      "color": "#000000",
+                                      "border-color": "#000000"
+                                    },
+                                    "quantityDecrement": {
+                                      "color": "#000000",
+                                      "border-color": "#000000"
+                                    },
+                                    "quantityInput": {
+                                      "color": "#000000",
+                                      "border-color": "#000000"
+                                    }
+                                  }
+                                }
+                              },
+                            });
+                          });
+                        }
+                      })();
+                      /*]]>*/
+                    </script>
+
+                    <!--
+                      End button for Dimpsey 700ml
+                    -->
+                  </div> <!-- /.seven-hundred-button -->
+                  <p><strong>£35</strong> <small>700ml</small></p>
+
+                  <div class="fifty-buy-button">
+
+                    <!--
+                      Start button for Dimpsey 50ml
+                    -->
+
+                    <div id='product-component-1629237402499'></div>
+                    <script type="text/javascript">
+                      /*<![CDATA[*/
+                      (function () {
+                        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                        if (window.ShopifyBuy) {
+                          if (window.ShopifyBuy.UI) {
+                            ShopifyBuyInit();
+                          } else {
+                            loadScript();
+                          }
+                        } else {
+                          loadScript();
+                        }
+                        function loadScript() {
+                          var script = document.createElement('script');
+                          script.async = true;
+                          script.src = scriptURL;
+                          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                          script.onload = ShopifyBuyInit;
+                        }
+                        function ShopifyBuyInit() {
+                          var client = ShopifyBuy.buildClient({
+                            domain: 'dimpsey-somerset-gin.myshopify.com',
+                            storefrontAccessToken: '31d7e98eefae99434c75c2f5d8554c11',
+                          });
+                          ShopifyBuy.UI.onReady(client).then(function (ui) {
+                            ui.createComponent('product', {
+                              id: '7009929461922',
+                              variantId: '40636439691426',
+                              node: document.getElementById('product-component-1629237402499'),
+                              moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+                              options: {
+                                "product": {
+                                  "styles": {
+                                    "product": {
+                                      "@media (min-width: 601px)": {
+                                        "max-width": "calc(25% - 20px)",
+                                        "margin-left": "20px",
+                                        "margin-bottom": "50px"
+                                      }
+                                    },
+                                    "button": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000",
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "background-color": "#f5ae20",
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "border-radius": "0px",
+                                      "padding-left": "41px",
+                                      "padding-right": "41px"
+                                    },
+                                    "quantityInput": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px"
+                                    }
+                                  },
+                                  "contents": {
+                                    "img": false,
+                                    "button": false,
+                                    "buttonWithQuantity": true,
+                                    "title": false,
+                                    "price": false,
+                                    "options": false
+                                  },
+                                  "text": {
+                                    "button": "Pre-order (due 06/08)"
+                                  },
+                                  "variantId": "40636439691426"
+                                },
+                                "productSet": {
+                                  "styles": {
+                                    "products": {
+                                      "@media (min-width: 601px)": {
+                                        "margin-left": "-20px"
+                                      }
+                                    }
+                                  }
+                                },
+                                "modalProduct": {
+                                  "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": true,
+                                    "button": false,
+                                    "buttonWithQuantity": true
+                                  },
+                                  "styles": {
+                                    "product": {
+                                      "@media (min-width: 601px)": {
+                                        "max-width": "100%",
+                                        "margin-left": "0px",
+                                        "margin-bottom": "0px"
+                                      }
+                                    },
+                                    "button": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000",
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "background-color": "#f5ae20",
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "border-radius": "0px",
+                                      "padding-left": "41px",
+                                      "padding-right": "41px"
+                                    },
+                                    "quantityInput": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px"
+                                    }
+                                  },
+                                  "text": {
+                                    "button": "Add to cart"
+                                  }
+                                },
+                                "option": {},
+                                "cart": {
+                                  "styles": {
+                                    "button": {
+                                      "font-size": "14px",
+                                      "padding-top": "15px",
+                                      "padding-bottom": "15px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000",
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "background-color": "#f5ae20",
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      "border-radius": "0px"
+                                    },
+                                    "title": {
+                                      "color": "#000000"
+                                    },
+                                    "header": {
+                                      "color": "#000000"
+                                    },
+                                    "lineItems": {
+                                      "color": "#000000"
+                                    },
+                                    "subtotalText": {
+                                      "color": "#000000"
+                                    },
+                                    "subtotal": {
+                                      "color": "#000000"
+                                    },
+                                    "notice": {
+                                      "color": "#000000"
+                                    },
+                                    "currency": {
+                                      "color": "#000000"
+                                    },
+                                    "close": {
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000"
+                                      }
+                                    },
+                                    "empty": {
+                                      "color": "#000000"
+                                    },
+                                    "noteDescription": {
+                                      "color": "#000000"
+                                    },
+                                    "discountText": {
+                                      "color": "#000000"
+                                    },
+                                    "discountIcon": {
+                                      "fill": "#000000"
+                                    },
+                                    "discountAmount": {
+                                      "color": "#000000"
+                                    },
+                                    "cart": {
+                                      "background-color": "#fffef2"
+                                    },
+                                    "footer": {
+                                      "background-color": "#fffef2"
+                                    }
+                                  },
+                                  "text": {
+                                    "title": "Basket",
+                                    "total": "Subtotal",
+                                    "empty": "Your basket is empty.",
+                                    "button": "Checkout"
+                                  },
+                                  "contents": {
+                                    "note": true
+                                  },
+                                  "popup": false
+                                },
+                                "toggle": {
+                                  "styles": {
+                                    "toggle": {
+                                      "background-color": "#f5ae20",
+                                      ":hover": {
+                                        "background-color": "#dd9d1d"
+                                      },
+                                      ":focus": {
+                                        "background-color": "#dd9d1d"
+                                      }
+                                    },
+                                    "count": {
+                                      "font-size": "14px",
+                                      "color": "#000000",
+                                      ":hover": {
+                                        "color": "#000000"
+                                      }
+                                    },
+                                    "iconPath": {
+                                      "fill": "#000000"
+                                    }
+                                  }
+                                },
+                                "lineItem": {
+                                  "styles": {
+                                    "variantTitle": {
+                                      "color": "#000000"
+                                    },
+                                    "title": {
+                                      "color": "#000000"
+                                    },
+                                    "price": {
+                                      "color": "#000000"
+                                    },
+                                    "fullPrice": {
+                                      "color": "#000000"
+                                    },
+                                    "discount": {
+                                      "color": "#000000"
+                                    },
+                                    "discountIcon": {
+                                      "fill": "#000000"
+                                    },
+                                    "quantity": {
+                                      "color": "#000000"
+                                    },
+                                    "quantityIncrement": {
+                                      "color": "#000000",
+                                      "border-color": "#000000"
+                                    },
+                                    "quantityDecrement": {
+                                      "color": "#000000",
+                                      "border-color": "#000000"
+                                    },
+                                    "quantityInput": {
+                                      "color": "#000000",
+                                      "border-color": "#000000"
+                                    }
+                                  }
+                                }
+                              },
+                            });
+                          });
+                        }
+                      })();
+                      /*]]>*/
+                    </script>
+
+                    <!--
+                      End button for Dimpsey 50ml
+                    -->
+
+                  </div><!-- /.fifty-button -->
+                  <p><strong>£5</strong> <small>50ml</small></p>
+
+                </div><!-- /.shopify-buy-buttons -->
 
                 <p>Free UK shipping on orders over £50</p>
                 <p>Local pick-up from the Still Shed Distillery is available</p>
-
-                <div class="seven-hundred-buy-button">
-                  <!--
-                  Shopify button for 700ml Dimpsey
-                  -->
-
-                  <div id='product-component-1629237356069'></div>
-                  <script type="text/javascript">
-                    /*<![CDATA[*/
-                    (function () {
-                      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                      if (window.ShopifyBuy) {
-                        if (window.ShopifyBuy.UI) {
-                          ShopifyBuyInit();
-                        } else {
-                          loadScript();
-                        }
-                      } else {
-                        loadScript();
-                      }
-                      function loadScript() {
-                        var script = document.createElement('script');
-                        script.async = true;
-                        script.src = scriptURL;
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                        script.onload = ShopifyBuyInit;
-                      }
-                      function ShopifyBuyInit() {
-                        var client = ShopifyBuy.buildClient({
-                          domain: 'dimpsey-somerset-gin.myshopify.com',
-                          storefrontAccessToken: '31d7e98eefae99434c75c2f5d8554c11',
-                        });
-                        ShopifyBuy.UI.onReady(client).then(function (ui) {
-                          ui.createComponent('product', {
-                            id: '7009929461922',
-                            variantId: '40636439658658',
-                            node: document.getElementById('product-component-1629237356069'),
-                            moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
-                            options: {
-                              "product": {
-                                "styles": {
-                                  "product": {
-                                    "@media (min-width: 601px)": {
-                                      "max-width": "calc(25% - 20px)",
-                                      "margin-left": "20px",
-                                      "margin-bottom": "50px"
-                                    }
-                                  },
-                                  "button": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000",
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "background-color": "#f5ae20",
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "border-radius": "0px",
-                                    "padding-left": "41px",
-                                    "padding-right": "41px"
-                                  },
-                                  "quantityInput": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px"
-                                  }
-                                },
-                                "contents": {
-                                  "img": false,
-                                  "button": false,
-                                  "buttonWithQuantity": true,
-                                  "title": false,
-                                  "price": false,
-                                  "options": false
-                                },
-                                "text": {
-                                  "button": "Pre-order (due 06/08)"
-                                }
-                              },
-                              "productSet": {
-                                "styles": {
-                                  "products": {
-                                    "@media (min-width: 601px)": {
-                                      "margin-left": "-20px"
-                                    }
-                                  }
-                                }
-                              },
-                              "modalProduct": {
-                                "contents": {
-                                  "img": false,
-                                  "imgWithCarousel": true,
-                                  "button": false,
-                                  "buttonWithQuantity": true
-                                },
-                                "styles": {
-                                  "product": {
-                                    "@media (min-width: 601px)": {
-                                      "max-width": "100%",
-                                      "margin-left": "0px",
-                                      "margin-bottom": "0px"
-                                    }
-                                  },
-                                  "button": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000",
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "background-color": "#f5ae20",
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "border-radius": "0px",
-                                    "padding-left": "41px",
-                                    "padding-right": "41px"
-                                  },
-                                  "quantityInput": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px"
-                                  }
-                                },
-                                "text": {
-                                  "button": "Add to cart"
-                                }
-                              },
-                              "option": {},
-                              "cart": {
-                                "styles": {
-                                  "button": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000",
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "background-color": "#f5ae20",
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "border-radius": "0px"
-                                  },
-                                  "title": {
-                                    "color": "#000000"
-                                  },
-                                  "header": {
-                                    "color": "#000000"
-                                  },
-                                  "lineItems": {
-                                    "color": "#000000"
-                                  },
-                                  "subtotalText": {
-                                    "color": "#000000"
-                                  },
-                                  "subtotal": {
-                                    "color": "#000000"
-                                  },
-                                  "notice": {
-                                    "color": "#000000"
-                                  },
-                                  "currency": {
-                                    "color": "#000000"
-                                  },
-                                  "close": {
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000"
-                                    }
-                                  },
-                                  "empty": {
-                                    "color": "#000000"
-                                  },
-                                  "noteDescription": {
-                                    "color": "#000000"
-                                  },
-                                  "discountText": {
-                                    "color": "#000000"
-                                  },
-                                  "discountIcon": {
-                                    "fill": "#000000"
-                                  },
-                                  "discountAmount": {
-                                    "color": "#000000"
-                                  },
-                                  "cart": {
-                                    "background-color": "#fffef2"
-                                  },
-                                  "footer": {
-                                    "background-color": "#fffef2"
-                                  }
-                                },
-                                "text": {
-                                  "title": "Basket",
-                                  "total": "Subtotal",
-                                  "empty": "Your basket is empty.",
-                                  "button": "Checkout"
-                                },
-                                "contents": {
-                                  "note": true
-                                },
-                                "popup": false
-                              },
-                              "toggle": {
-                                "styles": {
-                                  "toggle": {
-                                    "background-color": "#f5ae20",
-                                    ":hover": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    }
-                                  },
-                                  "count": {
-                                    "font-size": "14px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000"
-                                    }
-                                  },
-                                  "iconPath": {
-                                    "fill": "#000000"
-                                  }
-                                }
-                              },
-                              "lineItem": {
-                                "styles": {
-                                  "variantTitle": {
-                                    "color": "#000000"
-                                  },
-                                  "title": {
-                                    "color": "#000000"
-                                  },
-                                  "price": {
-                                    "color": "#000000"
-                                  },
-                                  "fullPrice": {
-                                    "color": "#000000"
-                                  },
-                                  "discount": {
-                                    "color": "#000000"
-                                  },
-                                  "discountIcon": {
-                                    "fill": "#000000"
-                                  },
-                                  "quantity": {
-                                    "color": "#000000"
-                                  },
-                                  "quantityIncrement": {
-                                    "color": "#000000",
-                                    "border-color": "#000000"
-                                  },
-                                  "quantityDecrement": {
-                                    "color": "#000000",
-                                    "border-color": "#000000"
-                                  },
-                                  "quantityInput": {
-                                    "color": "#000000",
-                                    "border-color": "#000000"
-                                  }
-                                }
-                              }
-                            },
-                          });
-                        });
-                      }
-                    })();
-                    /*]]>*/
-                  </script>
-
-                  <!--
-                    End button for Dimpsey 700ml
-                  -->
-                </div> <!-- /.seven-hundred-button -->
-
-                <div class="fifty-buy-button d-none">
-
-                  <!--
-                    Start button for Dimpsey 50ml
-                  -->
-
-                  <div id='product-component-1629237402499'></div>
-                  <script type="text/javascript">
-                    /*<![CDATA[*/
-                    (function () {
-                      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                      if (window.ShopifyBuy) {
-                        if (window.ShopifyBuy.UI) {
-                          ShopifyBuyInit();
-                        } else {
-                          loadScript();
-                        }
-                      } else {
-                        loadScript();
-                      }
-                      function loadScript() {
-                        var script = document.createElement('script');
-                        script.async = true;
-                        script.src = scriptURL;
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                        script.onload = ShopifyBuyInit;
-                      }
-                      function ShopifyBuyInit() {
-                        var client = ShopifyBuy.buildClient({
-                          domain: 'dimpsey-somerset-gin.myshopify.com',
-                          storefrontAccessToken: '31d7e98eefae99434c75c2f5d8554c11',
-                        });
-                        ShopifyBuy.UI.onReady(client).then(function (ui) {
-                          ui.createComponent('product', {
-                            id: '7009929461922',
-                            variantId: '40636439691426',
-                            node: document.getElementById('product-component-1629237402499'),
-                            moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
-                            options: {
-                              "product": {
-                                "styles": {
-                                  "product": {
-                                    "@media (min-width: 601px)": {
-                                      "max-width": "calc(25% - 20px)",
-                                      "margin-left": "20px",
-                                      "margin-bottom": "50px"
-                                    }
-                                  },
-                                  "button": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000",
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "background-color": "#f5ae20",
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "border-radius": "0px",
-                                    "padding-left": "41px",
-                                    "padding-right": "41px"
-                                  },
-                                  "quantityInput": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px"
-                                  }
-                                },
-                                "contents": {
-                                  "img": false,
-                                  "button": false,
-                                  "buttonWithQuantity": true,
-                                  "title": false,
-                                  "price": false,
-                                  "options": false
-                                },
-                                "text": {
-                                  "button": "Pre-order (due 06/08)"
-                                },
-                                "variantId": "40636439691426"
-                              },
-                              "productSet": {
-                                "styles": {
-                                  "products": {
-                                    "@media (min-width: 601px)": {
-                                      "margin-left": "-20px"
-                                    }
-                                  }
-                                }
-                              },
-                              "modalProduct": {
-                                "contents": {
-                                  "img": false,
-                                  "imgWithCarousel": true,
-                                  "button": false,
-                                  "buttonWithQuantity": true
-                                },
-                                "styles": {
-                                  "product": {
-                                    "@media (min-width: 601px)": {
-                                      "max-width": "100%",
-                                      "margin-left": "0px",
-                                      "margin-bottom": "0px"
-                                    }
-                                  },
-                                  "button": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000",
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "background-color": "#f5ae20",
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "border-radius": "0px",
-                                    "padding-left": "41px",
-                                    "padding-right": "41px"
-                                  },
-                                  "quantityInput": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px"
-                                  }
-                                },
-                                "text": {
-                                  "button": "Add to cart"
-                                }
-                              },
-                              "option": {},
-                              "cart": {
-                                "styles": {
-                                  "button": {
-                                    "font-size": "14px",
-                                    "padding-top": "15px",
-                                    "padding-bottom": "15px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000",
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "background-color": "#f5ae20",
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    "border-radius": "0px"
-                                  },
-                                  "title": {
-                                    "color": "#000000"
-                                  },
-                                  "header": {
-                                    "color": "#000000"
-                                  },
-                                  "lineItems": {
-                                    "color": "#000000"
-                                  },
-                                  "subtotalText": {
-                                    "color": "#000000"
-                                  },
-                                  "subtotal": {
-                                    "color": "#000000"
-                                  },
-                                  "notice": {
-                                    "color": "#000000"
-                                  },
-                                  "currency": {
-                                    "color": "#000000"
-                                  },
-                                  "close": {
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000"
-                                    }
-                                  },
-                                  "empty": {
-                                    "color": "#000000"
-                                  },
-                                  "noteDescription": {
-                                    "color": "#000000"
-                                  },
-                                  "discountText": {
-                                    "color": "#000000"
-                                  },
-                                  "discountIcon": {
-                                    "fill": "#000000"
-                                  },
-                                  "discountAmount": {
-                                    "color": "#000000"
-                                  },
-                                  "cart": {
-                                    "background-color": "#fffef2"
-                                  },
-                                  "footer": {
-                                    "background-color": "#fffef2"
-                                  }
-                                },
-                                "text": {
-                                  "title": "Basket",
-                                  "total": "Subtotal",
-                                  "empty": "Your basket is empty.",
-                                  "button": "Checkout"
-                                },
-                                "contents": {
-                                  "note": true
-                                },
-                                "popup": false
-                              },
-                              "toggle": {
-                                "styles": {
-                                  "toggle": {
-                                    "background-color": "#f5ae20",
-                                    ":hover": {
-                                      "background-color": "#dd9d1d"
-                                    },
-                                    ":focus": {
-                                      "background-color": "#dd9d1d"
-                                    }
-                                  },
-                                  "count": {
-                                    "font-size": "14px",
-                                    "color": "#000000",
-                                    ":hover": {
-                                      "color": "#000000"
-                                    }
-                                  },
-                                  "iconPath": {
-                                    "fill": "#000000"
-                                  }
-                                }
-                              },
-                              "lineItem": {
-                                "styles": {
-                                  "variantTitle": {
-                                    "color": "#000000"
-                                  },
-                                  "title": {
-                                    "color": "#000000"
-                                  },
-                                  "price": {
-                                    "color": "#000000"
-                                  },
-                                  "fullPrice": {
-                                    "color": "#000000"
-                                  },
-                                  "discount": {
-                                    "color": "#000000"
-                                  },
-                                  "discountIcon": {
-                                    "fill": "#000000"
-                                  },
-                                  "quantity": {
-                                    "color": "#000000"
-                                  },
-                                  "quantityIncrement": {
-                                    "color": "#000000",
-                                    "border-color": "#000000"
-                                  },
-                                  "quantityDecrement": {
-                                    "color": "#000000",
-                                    "border-color": "#000000"
-                                  },
-                                  "quantityInput": {
-                                    "color": "#000000",
-                                    "border-color": "#000000"
-                                  }
-                                }
-                              }
-                            },
-                          });
-                        });
-                      }
-                    })();
-                    /*]]>*/
-                  </script>
-
-                  <!--
-                    End button for Dimpsey 50ml
-                  -->
-
-                </div><!-- /.fifty-button -->
 
               </div><!-- /.col-lg-4 description -->
             </div><!-- /.description -->
@@ -789,18 +809,12 @@
       function changeImage(size) {
         let element = document.getElementsByClassName(size + "-ml-image")
         element[0].classList.toggle("d-none");
-        let buyButton = document.getElementsByClassName(size + "-buy-button")
-        buyButton[0].classList.toggle("d-none");
 
         if (size === "fifty") {
           document.getElementsByClassName("seven-hundred-ml-image")[0].classList.toggle("d-none");
-          document.getElementsByClassName("seven-hundred-buy-button")[0].classList.toggle("d-none");
         } else {
           document.getElementsByClassName("fifty-ml-image")[0].classList.toggle("d-none");
-          document.getElementsByClassName("fifty-buy-button")[0].classList.toggle("d-none");
         }
-
-        document.getElementById(size + "MlRadio").checked = true;
       }
     </script>
 
