@@ -80,7 +80,7 @@ img.main {
   height: 600px;
 }
 
-.thumbnails {
+.thumbnails, .main-image {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column-reverse;
@@ -94,7 +94,7 @@ img.main {
   margin-top: 20px;
 }
 
-.description, .contact-image {
+.description, .contact-image, .main-image {
   display: -ms-flexbox;
   display: flex;
   -ms-flex: 0 0 auto;
