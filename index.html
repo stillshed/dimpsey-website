@@ -41,7 +41,32 @@
     <link href="dimpsey.css" rel="stylesheet">
   </head>
   <body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0" tabindex="0">
-    
+
+  <!-- Age Verification Modal -->
+  <div class="modal" id="ageModal" role="dialog" aria-labelledby="gridSystemModalLabel" data-backdrop="static"
+       data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12" id="modal-age-limit" style="margin-bottom: 2.5rem;
+            color: #fff;">
+              <h3 class="hidden-xs"><strong>Are you of legal drinking age?</strong></h3>
+            </div>
+            <div class="col-xs-12 col-lg-12" id="age-submit-area" style="margin-top: 2rem;
+            color: #fff;">
+              <a href="#" class="btn btn-default" onclick="oldEnough()" id="age-submit">Yes, Enter</a>
+              <a href="https://www.drinkaware.co.uk/facts/alcohol-and-the-law/the-law-on-alcohol-and-under-18s" class="btn btn-default">No, Exit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
     <header>
       <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -87,20 +112,20 @@
 
               <label>
                 <input type="radio" name="test" value="small" onchange="changeImage('seven-hundred')" checked>
-                <img class="thumbnail" alt="700ml bottle of Dimpsey Somerset Gin" src="./images/bottle.png" />
-                700ml
+                <img class="thumbnail" alt="70cl bottle of Dimpsey Somerset Gin" src="./images/bottle.png" />
+                70cl
               </label>
 
               <label>
                 <input type="radio" name="test" value="big" onchange="changeImage('fifty')">
-                <img class="thumbnail fifty-ml" alt="50ml bottle of Dimpsey Somerset Gin" src="./images/five.png" />
-                50ml
+                <img class="thumbnail fifty-ml" alt="5cl bottle of Dimpsey Somerset Gin" src="./images/five.png" />
+                5cl
               </label>
             </div><!-- /.col-lg-1 thumbnails -->
 
             <div class="col-lg-6 main-image">
-              <img class="seven-hundred-ml-image" alt="700ml bottle of Dimpsey Somerset Gin" src="./images/bottle.png" />
-              <img class="fifty-ml-image d-none" alt="50ml bottle of Dimpsey Somerset Gin" src="./images/five.png" />
+              <img class="seven-hundred-ml-image" alt="70cl bottle of Dimpsey Somerset Gin" src="./images/bottle.png" />
+              <img class="fifty-ml-image d-none" alt="5cl bottle of Dimpsey Somerset Gin" src="./images/five.png" />
             </div><!-- /.col-lg-6 main-image -->
 
             <div class="col-lg-5 description">
@@ -125,16 +150,14 @@
               <p>Best enjoyed as a gin and tonic. Fill a glass with lots of ice, top with a premium tonic and a curl of pink grapefruit
                 or mandarin peel to garnish.</p>
 
-              <div class="description volume-selection-buy-buttons">
+              <div class="row shopify-buy-buttons">
 
-                <div class="shopify-buy-buttons">
-
-                  <div class="seven-hundred-buy-button">
+                  <div class="seven-hundred-buy-button col-lg-6 col-6">
                     <!--
-                    Shopify button for 700ml Dimpsey
+                    Shopify button for 70cl Dimpsey
                     -->
 
-                    <div id='product-component-1629237356069'></div>
+                    <div id='product-component-1629532429718'></div>
                     <script type="text/javascript">
                       /*<![CDATA[*/
                       (function () {
@@ -164,7 +187,7 @@
                             ui.createComponent('product', {
                               id: '7009929461922',
                               variantId: '40636439658658',
-                              node: document.getElementById('product-component-1629237356069'),
+                              node: document.getElementById('product-component-1629532429718'),
                               moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
                               options: {
                                 "product": {
@@ -190,8 +213,8 @@
                                         "background-color": "#dd9d1d"
                                       },
                                       "border-radius": "0px",
-                                      "padding-left": "41px",
-                                      "padding-right": "41px"
+                                      "padding-left": "14px",
+                                      "padding-right": "14px"
                                     },
                                     "quantityInput": {
                                       "font-size": "14px",
@@ -201,14 +224,12 @@
                                   },
                                   "contents": {
                                     "img": false,
-                                    "button": false,
-                                    "buttonWithQuantity": true,
                                     "title": false,
                                     "price": false,
                                     "options": false
                                   },
                                   "text": {
-                                    "button": "Pre-order (due 06/08)"
+                                    "button": "Add to Basket"
                                   }
                                 },
                                 "productSet": {
@@ -249,8 +270,8 @@
                                         "background-color": "#dd9d1d"
                                       },
                                       "border-radius": "0px",
-                                      "padding-left": "41px",
-                                      "padding-right": "41px"
+                                      "padding-left": "14px",
+                                      "padding-right": "14px"
                                     },
                                     "quantityInput": {
                                       "font-size": "14px",
@@ -409,18 +430,20 @@
                     </script>
 
                     <!--
-                      End button for Dimpsey 700ml
+                      End button for Dimpsey 70cl
                     -->
-                  </div> <!-- /.seven-hundred-button -->
-                  <p><strong>£35</strong> <small>700ml</small></p>
 
-                  <div class="fifty-buy-button">
+                    <p><strong>£35</strong> <small>70cl</small></p>
+
+                  </div> <!-- /.seven-hundred-button -->
+
+                  <div class="fifty-buy-button col-lg-6 col-6">
 
                     <!--
-                      Start button for Dimpsey 50ml
+                      Start button for Dimpsey 5cl
                     -->
 
-                    <div id='product-component-1629237402499'></div>
+                    <div id='product-component-1629532505001'></div>
                     <script type="text/javascript">
                       /*<![CDATA[*/
                       (function () {
@@ -450,7 +473,7 @@
                             ui.createComponent('product', {
                               id: '7009929461922',
                               variantId: '40636439691426',
-                              node: document.getElementById('product-component-1629237402499'),
+                              node: document.getElementById('product-component-1629532505001'),
                               moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
                               options: {
                                 "product": {
@@ -476,8 +499,8 @@
                                         "background-color": "#dd9d1d"
                                       },
                                       "border-radius": "0px",
-                                      "padding-left": "41px",
-                                      "padding-right": "41px"
+                                      "padding-left": "14px",
+                                      "padding-right": "14px"
                                     },
                                     "quantityInput": {
                                       "font-size": "14px",
@@ -487,14 +510,12 @@
                                   },
                                   "contents": {
                                     "img": false,
-                                    "button": false,
-                                    "buttonWithQuantity": true,
                                     "title": false,
                                     "price": false,
                                     "options": false
                                   },
                                   "text": {
-                                    "button": "Pre-order (due 06/08)"
+                                    "button": "Add to Basket"
                                   },
                                   "variantId": "40636439691426"
                                 },
@@ -536,8 +557,8 @@
                                         "background-color": "#dd9d1d"
                                       },
                                       "border-radius": "0px",
-                                      "padding-left": "41px",
-                                      "padding-right": "41px"
+                                      "padding-left": "14px",
+                                      "padding-right": "14px"
                                     },
                                     "quantityInput": {
                                       "font-size": "14px",
@@ -696,18 +717,17 @@
                     </script>
 
                     <!--
-                      End button for Dimpsey 50ml
+                      End button for Dimpsey 5cl
                     -->
 
+                    <p><strong>£5</strong> <small>5cl</small></p>
+
                   </div><!-- /.fifty-button -->
-                  <p><strong>£5</strong> <small>50ml</small></p>
 
                   <p>Free UK shipping on orders over £50</p>
                   <p>Local pick-up from the Still Shed Distillery is available</p>
 
-                </div><!-- /.shopify-buy-buttons -->
-
-              </div><!-- /.col-lg-4 description -->
+              </div><!-- /.row -->
             </div><!-- /.description -->
           </div><!-- /.row -->
         </div><!-- /.marketing -->
@@ -808,6 +828,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
     <script type="application/javascript">
+      function setCookie(name, value, days) {
+        let expires = "";
+        if (days) {
+          let date = new Date();
+          date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+      }
+
+      function getCookie(cname) {
+        let name = cname + "=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+        if (getCookie('popupCookie') != 'submitted') {
+          document.getElementById('ageModal').classList.toggle('show-modal');
+        }
+      });
+
+      function oldEnough() {
+        setCookie('popupCookie', 'submitted', 20);
+        document.getElementById('ageModal').classList.toggle('show-modal');
+      }
+
       function changeImage(size) {
         let element = document.getElementsByClassName(size + "-ml-image")
         element[0].classList.toggle("d-none");
