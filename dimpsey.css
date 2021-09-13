@@ -48,6 +48,10 @@ li ol > li:before {
   opacity: 0.75 !important;
 }
 
+.modal-dialog {
+  max-width: 700px;
+}
+
 .modal-content {
   border: none;
 }
@@ -60,6 +64,10 @@ li ol > li:before {
   padding: 5rem;
   background-color: rgb(255 254 242);
   text-align: center;
+}
+
+.modal-body img {
+  width: 300px;
 }
 
 .modal-body h3 {
@@ -178,6 +186,10 @@ img.main {
   flex-direction: column;
   -ms-flex-pack: end;
   justify-content: flex-end;
+}
+
+.distillery-image img {
+  height: 240px;
 }
 
 /* Center align Shopify buy button */
