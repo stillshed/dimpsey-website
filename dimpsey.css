@@ -7,6 +7,25 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
   background-color: rgb(255 254 242);
+  font-family: 'tex_gyre_adventorregular', Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'uppereastsideregular', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: 'uppereastsideregular', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: 'uppereastsideregular', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
 }
 
 ol {
