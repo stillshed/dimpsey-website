@@ -208,6 +208,8 @@ img.main {
 }
 
 .distillery-image img {
+  display: block;
+  margin: auto;
   height: 240px;
 }
 
