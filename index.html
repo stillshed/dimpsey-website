@@ -14,23 +14,34 @@
       {
         "@context": "https://schema.org/",
         "@type": "Product",
-        "name": "Dimpsey Somerset Gin",
+        "name": "Original",
         "image": [
           "https://dimpseygin.co.uk/images/bottle.png"
         ],
-        "description": "Distilled in copper pot stills just before Dimpsey - that’s old Somerset for sunset - at the foot of the Mendip Hills, using locally foraged botanicals and Cheddar spring water, this is Somerset Gin.",
-        "sku": "001",
+        "description": "Best enjoyed as a gin and tonic. Fill a glass with lots of ice, top with a premium tonic and a curl of pink grapefruit or mandarin peel to garnish.",
         "brand": {
           "@type": "Brand",
-          "name": "Dimpsey Gin"
+          "name": "Dimpsey Somerset Gin"
         },
-        "offers": {
-          "@type": "Offer",
-          "url": "https://dimpseygin.co.uk",
-          "priceCurrency": "GBP",
-          "price": "35.00",
-          "itemCondition": "https://schema.org/NewCondition",
-          "availability": "https://schema.org/InStock"
+        "offers": [{
+            "@type": "Offer",
+            "url": "https://dimpseygin.co.uk",
+            "sku": "Dim/Ori/70c",
+            "priceCurrency": "GBP",
+            "price": "35.00",
+            "availability": "InStock"
+          },{
+            "@type": "Offer",
+            "url": "https://dimpseygin.co.uk",
+            "sku": "Dim/Ori/5c",
+            "priceCurrency": "GBP",
+            "price": "5.00",
+            "availability": "InStock"
+          }
+        ],
+        "seller": {
+          "@type": "Organization",
+          "name": "Still Shed Distillery"
         }
       }
     </script>
@@ -104,7 +115,8 @@
     <main>
 
       <div class="animated-illustration">
-          <img class="img-fluid" alt="Dimpsey Somerset Gin illustration" src="./images/main.png" />
+        <img class="img-fluid d-none d-md-block" alt="Dimpsey Somerset Gin illustration" src="./images/main.png" />
+        <img class="img-fluid d-block d-sm-none"  alt="Dimpsey Somerset Gin illustration" src="./images/main-mobile.png" />
       </div>
 
       <hr class="featurette-divider">

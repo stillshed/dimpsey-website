@@ -115,10 +115,10 @@ li ol > li:before {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
-.animated-illustration img {
-  display: block;
-  margin: 0 auto;
-}
+/*.animated-illustration img {*/
+/*  display: block;*/
+/*  margin: 0 auto;*/
+/*}*/
 
 /* HIDE RADIO */
 .thumbnails [type=radio] {
