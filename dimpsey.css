@@ -28,6 +28,16 @@ h3 {
   font-size: 2em;
 }
 
+.dimpsey {
+  font-family: 'uppereastsideregular', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.main-mobile {
+  margin-top: 39px;
+}
+
 ol {
   list-style-type: none;
   counter-reset: item;
