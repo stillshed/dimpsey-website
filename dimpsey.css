@@ -130,6 +130,31 @@ li ol > li:before {
 /*  margin: 0 auto;*/
 /*}*/
 
+.animated-illustration {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+h1.centered {
+  font-size: 7em;
+  color: #000;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p.centered {
+  font-size: 2em;
+  color: #000;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
 /* HIDE RADIO */
 .thumbnails [type=radio] {
   position: absolute;
