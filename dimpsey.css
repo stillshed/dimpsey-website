@@ -5,7 +5,7 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #000;
   background-color: rgb(255 254 242);
   font-family: 'tex_gyre_adventorregular', Arial, sans-serif;
 }
@@ -63,6 +63,17 @@ li ol > li {
 
 li ol > li:before {
   content: counters(item, ".") " ";
+}
+
+a {
+    color: #fe9417;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+a:hover {
+    color: #fe9417;
+    text-decoration: underline;
 }
 
 /* AGE VERIFICATION POPUP
