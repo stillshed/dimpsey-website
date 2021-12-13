@@ -76,6 +76,10 @@ a:hover {
     text-decoration: underline;
 }
 
+main.terms {
+  margin-top:  20px;
+}
+
 /* AGE VERIFICATION POPUP
 -------------------------------------------------- */
 

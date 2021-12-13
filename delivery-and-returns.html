@@ -5,32 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Dimpsey Somerset Gin is distilled in traditional copper stills, using locally foraged botanicals and Cheddar spring water">
     <meta name="author" content="Tommy">
-    <title>Delivery & Returns</title>
+    <title>Dimpsey Somerset Gin Deliver & Returns</title>
     <link rel="canonical" href="https://dimpseygin.co.uk" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="format-detection" content="telephone=no">
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="./fonts/uppereastside_regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
-    <link rel="stylesheet" href="./fonts/texgyreadventor_regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./fonts/uppereastside_regular_macroman/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="./fonts/texgyreadventor_regular_macroman/stylesheet.css" type="text/css" />
     <link href="dimpsey.css" rel="stylesheet">
   </head>
   <body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0" tabindex="0">
 
+  <!-- Age Verification Modal -->
+  <div class="modal" id="ageModal" role="dialog" aria-labelledby="gridSystemModalLabel" data-backdrop="static"
+       data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12" id="modal-age-limit" style="margin-bottom: 2.5rem;
+            color: #fff;">
+              <h3 class="hidden-xs"><strong>Are you of legal drinking age?</strong></h3>
+              <img class="img-fluid" alt="Dimpsey Somerset Gin illustration" src="./images/botanicals/juniper.png" />
+            </div>
+            <p>By entering this site, you acknowledge that you have read, understood and consent to our <a href="terms-and-conditions.html" target="_blank">Terms & Conditions</a> and <a href="privacy-and-cookies.html" target="_blank">Privacy & Cookie Policy</a>.</p>
+            <div class="col-xs-12 col-lg-12" id="age-submit-area" style="margin-top: 2rem;
+            color: #fff;">
+              <a href="#" class="btn btn-default" onclick="oldEnough()" id="age-submit">Yes, Enter</a>
+              <a href="https://www.drinkaware.co.uk/facts/alcohol-and-the-law/the-law-on-alcohol-and-under-18s" class="btn btn-default">No, Exit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
     <header>
       <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Dimpsey Somerset Gin</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <a class="navbar-brand" href="index.html"><span class="dimpsey">Dimpsey</span></a>
+          </div>
         </div>
       </nav>
     </header>
 
-    <main>
+    <main class="terms">
 
         <br/>
 
@@ -40,7 +74,7 @@
             <div class="col-lg-12 terms-description">
 
               <h1>Delivery & Returns</h1>
-              <h2>Shipping/Delivery</h2>
+              <h2 class="featurette-heading">Shipping/Delivery</h2>
               <p>Our standard spirit delivery is 2-4 working days. Orders are currently despatched between Thursday and Saturday.</p>
 
               <p>At the moment, we don’t offer same day delivery or special delivery. Please note that our delivery dates may be affected by public holidays and some
@@ -66,7 +100,7 @@
                 The Orkney Islands, The Isle of Scilly, Ireland, The Highlands, The Isle of Wight and The Isle of Man.
                 Please contact us directly on 07469 931 116 for advice on delivery to these locations.</p>
 
-              <h2>Returns</h2>
+              <h2 class="featurette-heading">Returns</h2>
               <p>Unfortunately, as perishable goods and some flammable liquids, we regret that we do not offer returns on our products, unless due to defect or fault.</p>
 
               <p>If faulty, please contact us on 07469 931 116 or email distillery@stillshed.co.uk detailing the nature of your fault. If you have returned the product(s)
