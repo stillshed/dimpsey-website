@@ -274,8 +274,14 @@ img.main {
   text-align: center;
 }
 
-.social-media-icons img {width: 50px;}
-.social-media-icons {display: flex;;justify-content: center;}
+.social-media-icons img {
+  width: 50px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
 
 /* Featurettes
 ------------------------- */
