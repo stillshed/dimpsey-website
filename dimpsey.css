@@ -80,6 +80,11 @@ main.terms {
   margin-top:  20px;
 }
 
+hr {
+  color: #fe9417;
+  height:  2px !important;
+}
+
 /* AGE VERIFICATION POPUP
 -------------------------------------------------- */
 
@@ -268,6 +273,9 @@ img.main {
 .shopify-buy-buttons {
   text-align: center;
 }
+
+.social-media-icons img {width: 50px;}
+.social-media-icons {display: flex;;justify-content: center;}
 
 /* Featurettes
 ------------------------- */
