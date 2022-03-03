@@ -231,6 +231,7 @@ img.thumbnail {
 .main-image img {
   display: block;
   margin: auto;
+  width: 50%;
 }
 
 img.main {
