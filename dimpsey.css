@@ -135,6 +135,23 @@ hr {
   color:  #000;
   padding: .5rem 3rem !important;
 }
+
+.nav-link {
+  margin:  0.8rem;
+}
+
+.navbar a:hover {
+    text-decoration: none !important;
+}
+
+.navbar-brand {
+  margin-right: 0rem;
+}
+
+.btn-more {
+  margin: 0 auto;
+}
+
 @media (max-width:768px) {
   .mobile-margin-bottom{
     margin-bottom:.5rem;
@@ -219,6 +236,7 @@ img.thumbnail {
 }
 
 .main-image {
+  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column-reverse;
@@ -228,10 +246,19 @@ img.thumbnail {
   text-align: center;
 }
 
-.main-image img {
+.seven-hundred-ml-image {
   display: block;
   margin: auto;
   width: 50%;
+  position: relative;
+}
+
+.taste-of-the-west-gold {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  top: 55px;
+  right: 150px;
 }
 
 img.main {
