@@ -345,4 +345,10 @@ img.main {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
+  .taste-of-the-west-gold {
+    height: 60px;
+    width:  60px;
+    right:  100px;
+  }
 }
