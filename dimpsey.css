@@ -235,14 +235,11 @@ img.thumbnail {
   height: 150px;
 }
 
-.main-image {
+.original {
   position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column-reverse;
-  flex-direction: column-reverse;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+}
+
+.original, .gurt-blush {
   text-align: center;
 }
 
@@ -255,10 +252,32 @@ img.thumbnail {
 
 .taste-of-the-west-gold {
   position: absolute;
-  height: 140px;
-  width: 140px;
-  top: 55px;
-  right: 150px;
+  height: 100px;
+  width: 100px;
+  top: 80px;
+  right: 190px;
+}
+
+.taste-of-the-west-gold-product-page {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 90px;
+  right: 190px;
+}
+
+.seven-hundred-ml-image.gurt-blush {
+  width: 25%;
+}
+
+.taste-of-the-west-gold-product-page.gurt-blush {
+  top: 90px;
+  right: 510px;
+}
+
+.youMayAlsoLike {
+  text-align: center;
+  position: relative;
 }
 
 img.main {
