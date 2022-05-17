@@ -137,7 +137,7 @@
 
         <div id="theGin" class="container quote">
           <blockquote class="blockquote text-center">
-            <p>Dimpsey Somerset Gin is hand-crafted with traditional copper pot stills at Dimpsey (that's old Somerset for the light before dusk), <br /> at the foot of the Mendip Hills, using locally sourced botanicals and Cheddar spring water.</p>
+            <p>Dimpsey Somerset Gin is hand-crafted with copper pot stills at Dimpsey (that's old Somerset for the light before dusk), <br /> at the foot of the Mendip Hills, using locally sourced botanicals and Cheddar spring water. <br /> Distilled and bottled by hand at <a href="#whereItsMade">Still Shed Distillery</a>.</p>
           </blockquote>
         </div>
 
@@ -293,13 +293,15 @@
         {lat: 51.2767586, lng: -2.9320063, name: "Brent House Farm Shop"},
         {lat: 51.2889864, lng: -2.8398912, name: "The White Hart"},
         {lat: 51.2943016, lng: -3.009639, name: "Northam Farm"},
+        {lat: 51.2432901, lng: -2.9260389, name: "Willow Tree Farm"},
+        {lat: 51.1792451, lng: -2.7367576, name: "The Horeless Bar"},
       ];
 
       function initGoogleMap(){
 
         const infowindow = new google.maps.InfoWindow(); // Only one InfoWindow
         const map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 11,
+            zoom: 8,
             center: new google.maps.LatLng(51.35, -2.97)
         });
         
