@@ -337,6 +337,10 @@ img.main {
   /* The width is the width of the web page */
 }
 
+.more-info-button {
+  margin:  20px;
+}
+
 /* Featurettes
 ------------------------- */
 
