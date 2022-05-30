@@ -246,7 +246,6 @@ img.thumbnail {
 .seven-hundred-ml-image {
   display: block;
   margin: auto;
-  width: 50%;
   position: relative;
 }
 
@@ -264,10 +263,6 @@ img.thumbnail {
   width: 100px;
   top: 90px;
   right: 190px;
-}
-
-.seven-hundred-ml-image.gurt-blush {
-  width: 25%;
 }
 
 .taste-of-the-west-gold-product-page.gurt-blush {
