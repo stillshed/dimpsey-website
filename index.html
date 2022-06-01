@@ -300,14 +300,16 @@
         {lat: 51.1792451, lng: -2.7367576, name: "The Horeless Bar"},
         {lat: 51.1236839, lng: -2.7614884, name: "New Beginnings Bar"},
         {lat: 51.02143, lng: -3.1553113, name: "The Gin & Sin Co"},
+        {lat: 51.3799444, lng: -2.3842458, name: "Sweet Drinks"},
+        {lat: 52.2207866, lng: 1.1194707, name: "The Coach House"},
       ];
 
       function initGoogleMap(){
 
         const infowindow = new google.maps.InfoWindow(); // Only one InfoWindow
         const map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 10,
-            center: new google.maps.LatLng(51.165222,-2.909575)
+            zoom: 8,
+            center: new google.maps.LatLng(51.733336,-1.047392)
         });
         
         function placeMarker( loc ) {
