@@ -23,9 +23,6 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="format-detection" content="telephone=no">
 
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
-
     <script src="https://kit.fontawesome.com/8d02c00bc5.js" crossorigin="anonymous"></script>
 
     <script type="application/ld+json">
@@ -182,62 +179,8 @@
 
             <h2 class="featurette-heading">Stockists</h2>
 
-            <div id='map'></div>
-            <script>
-            // The value for 'accessToken' begins with 'pk...'
-            mapboxgl.accessToken = 'pk.eyJ1IjoiZGltcHNleWdpbiIsImEiOiJjbDQyZnV4anIwcm1wM2VvNng0YzlmdnBoIn0.m4e28PqVxiYaszVwWFopBg'; 
-            const map = new mapboxgl.Map({
-              container: 'map',
-              style: 'mapbox://styles/dimpseygin/cl46ptruo000614pj0dlfh6me', 
-              center: [-1.047392, 51.733336],
-              zoom: 7
-            });
-
-            map.on('click', (event) => {
-              // If the user clicked on one of your markers, get its information.
-              const features = map.queryRenderedFeatures(event.point, {
-                layers: ['by-the-glass'] // replace with your layer name
-              });
-              if (!features.length) {
-                return;
-              }
-              const feature = features[0];
-
-              /* 
-                Create a popup, specify its options 
-                and properties, and add it to the map.
-              */
-              const popup = new mapboxgl.Popup({ offset: [0, -15] })
-              .setLngLat(feature.geometry.coordinates)
-              .setHTML(
-                `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
-              )
-              .addTo(map);
-            });
-
-            map.on('click', (event) => {
-              // If the user clicked on one of your markers, get its information.
-              const features = map.queryRenderedFeatures(event.point, {
-                layers: ['by-the-bottle'] // replace with your layer name
-              });
-              if (!features.length) {
-                return;
-              }
-              const feature = features[0];
-
-              /* 
-                Create a popup, specify its options 
-                and properties, and add it to the map.
-              */
-              const popup = new mapboxgl.Popup({ offset: [0, -15] })
-              .setLngLat(feature.geometry.coordinates)
-              .setHTML(
-                `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
-              )
-              .addTo(map);
-            });
-
-            </script>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-e2027fd3-0d0f-4383-bfc8-292f703bd651"></div>
 
           </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
